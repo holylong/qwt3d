@@ -61,7 +61,7 @@ Plot::Plot(): VolumePlot()
 
     */
 
-    QFile modelFile("../data/bunny.xyz");
+    QFile modelFile("examples/data/bunny.xyz");
     if (modelFile.open(QFile::ReadOnly))
     {
         qDebug() << "opened: " << modelFile.fileName();
